@@ -205,7 +205,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAJYsmLWRvm70cE-mmxSNCovEf4v1ueJAAIcCAACbMK4VuL4EmZEkq8WKQQ"
+                "CAACAgQAAx0CZuG_RgACA4pkT-f_OwWPPdmgFb6jp_TKcsazwwAC3QkAAjANOVOxYze4AAFC2rcvBA"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
@@ -412,7 +412,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ",
-                            url="https://github.com/AnonymousX1025",
+                            url="https://t.me/mr_agora",
                         ),
                     ],
                     [
@@ -442,16 +442,16 @@ def Source_about_callback(update: Update, context: CallbackContext):
  ᴛʜɪs ɪs {BOT_NAME},
 ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
 
-ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ : [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon)
-[ᴩʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
-[ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot)
-ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
+ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ : [ᴛᴇʟᴇᴛʜᴏɴ](https://t.me/mr_agora)
+[ᴩʏʀᴏɢʀᴀᴍ](https://t.me/mr_agora)
+[ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://t.me/mr_agora)
+ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://t.me/mr_agora) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/AnonymousX1025/FallenRobot)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://t.me/mr_agora)
 
 
-{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/AnonymousX1025/FallenRobot/blob/master/LICENSE).
+{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://t.me/mr_agora).
 © 2022 - 2023 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
@@ -726,7 +726,7 @@ def main():
 
 ┏•❅────✧❅✦❅✧────❅•┓
 ㅤ★ **ᴘʏᴛʜᴏɴ :** `{y()}`
-ㅤ★ **ʟɪʙʀᴀʀʏ :** `{telever}`
+ㅤ★ **ᴛᴇᴀᴍ ᴀɢᴏʀᴀ :** `{telever}`
 ㅤ★ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
 ㅤ★ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
 ┗•❅────✧❅✦❅✧────❅•┛""",
